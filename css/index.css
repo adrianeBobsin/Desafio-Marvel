@@ -1,0 +1,80 @@
+body {
+    background-color:#fff;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 75px;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 110px;
+    color: #C40202;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Bangers', cursive;
+    margin-left: 5%;
+    color: #C40202;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: 'Bangers', cursive;
+}
+
+a {
+    color: black;
+    font-style: normal;
+    text-decoration: black;
+}
+
+a:hover {
+    color: black;   
+}
+
+#bg {
+    width: 100%;
+    height: 70%;
+}
+
+#personagem {
+    display: inline;
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    align-content: center;  
+}
+
+#hq {
+    display: inline;
+    float: left;
+    padding: 5%;
+}
+
+#rodape {
+    display: inline-block;
+    width: 100%;
+    padding-top: 5%;  
+}
+
+#texto_rodape {
+    float: right;
+    padding-right: 5%;
+}
+
+#banners {
+    width: 100%;
+    padding: 2% 2% 2%
+}
+
+#titulo_hq {
+    display: inline;
+    float: left;
+    width: 70%;
+}
+
+#img_rodape {
+    width: 100%;
+}
