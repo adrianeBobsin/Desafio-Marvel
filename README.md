@@ -9,3 +9,6 @@ Guia de instalação:
 - Acessar o link: localhost:8080/index.php.
 
 
+Guia de utilização:
+Na tela inicial serão listados os três personagens escolhidos e para verificar as cinco histórias de cada personagem basta clicar sob o nome ou 
+imagem do personagem para ser redirecionado à página onde são exibidos os HQ's com participações do super herói selecionado.
