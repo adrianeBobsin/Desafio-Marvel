@@ -25,12 +25,11 @@ h3 {
 
 a {
     color: black;
-    font-style: normal;
-    text-decoration: black;
+    text-decoration: none;
 }
 
 a:hover {
-    color: black;   
+    color: black!important;   
 }
 
 #bg {
@@ -50,7 +49,12 @@ a:hover {
 #hq {
     display: inline;
     float: left;
-    padding: 5%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+    align-content: center;  
+    width: 25%;
+    height: 75%;
 }
 
 #rodape {
@@ -62,6 +66,7 @@ a:hover {
 #texto_rodape {
     float: right;
     padding-right: 5%;
+    color: grey;
 }
 
 #banners {
@@ -72,9 +77,20 @@ a:hover {
 #titulo_hq {
     display: inline;
     float: left;
-    width: 70%;
+    width: 100%;
 }
 
-#img_rodape {
-    width: 100%;
+#icone_voltar {
+    width: 20px;
+    height: 20px;
+    margin-left: 5%;
+}
+
+#txt_voltar {
+    font-family: 'Bangers', cursive;
+    font-size: 25px;
+}
+
+hr {
+    color: lavender;
 }

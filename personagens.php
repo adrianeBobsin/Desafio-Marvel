@@ -40,7 +40,6 @@
                             <div id='titulo'><h2>".$retorno['data']['results'][0]['name']."</h2></div>
                             <div id='imagem'><img src=".$retorno['data']['results'][0]['thumbnail']['path']."/portrait_uncanny." . 
                                                         $retorno['data']['results'][0]['thumbnail']['extension']."></div>
-                            <!--<div id='descricao'><p>". $retorno['data']['results'][0]['description']."</p></div>-->
                         </a>
                     </div>
                 ";

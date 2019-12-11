@@ -44,20 +44,23 @@
                     <img id='bg' src='img/bg_daredevil.png'>
                     <h1>Desafio técnico - Adriane Bobsin </h1>
                     <h2>HQs - ".$_GET['nome']."</h2> 
+                    <a href='index.php' id='txt_voltar'><img src='img/icone_voltar.png' id='icone_voltar'> Voltar</a>
                 </div>";
 
     for ($i = 0; $i < 5; $i++) {
-        echo "
-                <div id='hq'>
+        echo "  <div id='hq'>
                     <div id='titulo_hq'><h3>".$retorno['data']['results'][$i]['title']."</h3></div>
-                    <div id='imagem_hq'><img src=".$retorno['data']['results'][$i]['thumbnail']['path']."/portrait_uncanny." . 
+                    <div id='imagem_hq'><img src=".$retorno['data']['results'][$i]['thumbnail']['path']."/portrait_incredible." . 
                                                 $retorno['data']['results'][$i]['thumbnail']['extension']."></div>
-                    <!--<div id='descricao'><p>". $retorno['data']['results'][$i]['description']."</p></div>-->
-                </div>
-         ";
+                </div>";
     }
 
-    echo "</body>
+    echo "
+            <div id='rodape'>
+                <hr><br/>
+                <p id='texto_rodape'>Adriane Bobsin de La Vega - 2019</p>
+            </div>
+        </body>
     </html>";
     
 
