@@ -1,5 +1,6 @@
-# desafioKingHost
-Repositório do desafio técnico proposto pela KingHost.
+# API Marvel
+
+Projeto que utiliza a API da Marvel para consultar personagens e cinco histórias vinculadas a eles. .
 Projeto escrito na linguagem PHP versão 7.3.2.
 
 Guia de instalação:
